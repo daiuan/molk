@@ -1,0 +1,36 @@
+.equipe{
+    background-color: #000;
+    width: 100vw;
+    margin-top: 60px;
+    padding: 60px 0;
+}
+.pessoa p, .pessoa h2{
+    color: #FFF;
+    font-family: sans-serif;
+}
+.pessoa p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.pessoa{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.pessoa img{
+    background-color: #000;
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 7px solid #fec61a;
+}
+@media screen and (max-width: 1200px){
+    .pessoa{
+        width: 100%;
+    }
+}

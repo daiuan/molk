@@ -1,0 +1,44 @@
+.texto1 {
+    width: 60%;
+    font-size:3vh;
+    color:black;
+}
+.imagem1{
+    width: 40%;
+}
+
+.imagem1 img {
+    width: 100%;
+}
+.imagem1 p{
+    position:relative;
+    top:-2.5vh;
+    font-size:2vh;
+}
+.texto2 {
+    width: 100%;
+    font-size:3vh;
+    color:black;
+}
+
+.texto3 {
+    font-size:3vh;
+    width:100%;
+}
+.imagem2{
+    width: 30%;
+}
+.imagem2 img {
+    width:100%;
+}
+.texto4 {
+    font-size:3vh;
+    width:60%;
+    color:black;
+}
+
+@media screen and (max-width: 1200px){
+    .imagem1, .texto1, .imagem2, .texto4{
+        width: 100%;
+    }
+}

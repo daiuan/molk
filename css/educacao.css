@@ -1,0 +1,32 @@
+.texto1 {
+    font-size:3vh;
+    color:black;
+}
+.imagem1 p{
+    font-size:2vh;
+}
+.texto2, .texto4 {
+    font-size:3vh;
+    width: 100%;
+    color:black;
+}
+.texto2 p{
+    width: 100%;
+}
+.imagem2{
+    width: 50%;
+}
+.imagem2 img {
+    width:100%;
+}
+.texto3 {
+    font-size:3vh;
+    width:65%;
+}
+
+
+@media screen and (max-width: 1200px){
+    .imagem2, .texto3{
+        width: 100%;
+    }
+}
